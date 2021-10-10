@@ -462,7 +462,7 @@ GameObject:
   - component: {fileID: 843565202}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: sphere
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -735,6 +735,56 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1273549229}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1641844582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1641844584}
+  - component: {fileID: 1641844583}
+  m_Layer: 0
+  m_Name: Box Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1641844583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641844582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e961cdd2ee1cf0d43a52c4a03ee5ef47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  box:
+  - {fileID: 5311699362576103724, guid: 59530eca2999f344095e813389b574db, type: 3}
+  - {fileID: 7069991992250937753, guid: abef3dfc48c38374abdfc457b908a0ea, type: 3}
+  - {fileID: 6502595303379932302, guid: 5e3184daf268d81439e1efb6ce5a35e9, type: 3}
+  - {fileID: 4883943939651298073, guid: efe277d91cf6c50499ad08f24f701954, type: 3}
+  - {fileID: 568364120823314487, guid: 1d4c14d74b02d6642ae4bd8591f324ef, type: 3}
+  rnd: 0
+--- !u!4 &1641844584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641844582}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2076723305
 GameObject:
   m_ObjectHideFlags: 0
